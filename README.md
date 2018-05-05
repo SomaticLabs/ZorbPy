@@ -1,4 +1,4 @@
-# SwiftyZorb
+# ZorbPy
 
 *Python library for integrating with the [Somatic Zorb Engine](https://somaticlabs.io)*
 
