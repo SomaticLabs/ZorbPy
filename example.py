@@ -1,6 +1,7 @@
 import logging, time
 import zorb
 
+
 # Configure logging to print out info messages
 logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.INFO)
 

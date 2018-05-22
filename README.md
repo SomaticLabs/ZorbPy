@@ -7,13 +7,22 @@
 
 ## Installation
 
-TODO
+Using [pip](), installation is simple:
+
+```sh
+pip install zorb
+```
+
+Please note that this library only currently supports macOS and Linux, as Windows is not currently supported by the [underlying BLE](https://github.com/adafruit/Adafruit_Python_BluefruitLE) package used for this library.
 
 ## Library Usage
 
 For a quick example on how to use the ZorbPy library, please reference [example.py](https://github.com/SomaticLabs/ZorbPy/blob/master/example.py).
 
-To use the ZorbPy library, you must wrap the functionality of your program in a function that is passed to the `zorb.run()` function call. Any usage of the functions provided by this library outside of the process started by `zorb.run()` will produce error behavior.
+To use the ZorbPy library, you must wrap the functionality of your program in a function that is passed to the `zorb.run()` function call.
+
+Any usage of the functions provided by this library outside of the process started by `zorb.run()` will produce error behavior.
+
 
 The ZorbPy library provides three main functionalities:
 
@@ -23,24 +32,28 @@ The ZorbPy library provides three main functionalities:
 
 - directly controlling actuator intensity on the Zorb device
 
+
 To connect to an advertising Zorb device:
 
-```
+```python
 zorb.connect()
 ```
 
+
 To trigger one of the available presets:
 
-```
+```python
 zorb.triggerPattern(zorb.POINT_LEFT)
 ```
 
-Note that preset haptic emojis are exist for the following emojis:
+*Note that preset haptic emojis are exist for the following emojis:*
+
 🎊, 👈, 👉, 🤛, 🤜, ⏮️, ⏭️, 🙌, 👋, 😯, 😳, 😬, 😊, 😄, 🤣
+
 
 To directly set the actuator values:
 
-```
+```python
 duration = 100
 top_left = 0
 top_right = 0
@@ -50,9 +63,10 @@ bottom_right = 25
 zorb.writeActuators(duration, top_left, top_right, bottom_left, bottom_right)
 ```
 
+
 Below is a more comprehensive example of a simple program that connects to a Zorb device, plays a confetti pattern upon successful connection, and then updates actuator values based on some hypothetical sensor output.
 
-```
+```python
 import zorb
 
 def mainloop():
