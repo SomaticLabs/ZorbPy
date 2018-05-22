@@ -24,7 +24,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="zorb",
-    version="0.1.1",
+    version="0.1.2",
     author="Somatic Labs",
     author_email="developers@somaticlabs.io",
     description="Python SDK for the Zorb Engine",
