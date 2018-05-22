@@ -34,14 +34,12 @@ The ZorbPy library provides three main functionalities:
 
 
 To connect to an advertising Zorb device:
-
 ```python
 zorb.connect()
 ```
 
 
 To trigger one of the available presets:
-
 ```python
 zorb.triggerPattern(zorb.POINT_LEFT)
 ```
@@ -52,7 +50,6 @@ zorb.triggerPattern(zorb.POINT_LEFT)
 
 
 To directly set the actuator values:
-
 ```python
 duration = 100
 top_left = 0
@@ -65,7 +62,6 @@ zorb.writeActuators(duration, top_left, top_right, bottom_left, bottom_right)
 
 
 Below is a more comprehensive example of a simple program that connects to a Zorb device, plays a confetti pattern upon successful connection, and then updates actuator values based on some hypothetical sensor output.
-
 ```python
 import zorb
 
