@@ -1,6 +1,6 @@
 # ZorbPy
 
-*Python library for integrating with the [Somatic Zorb Engine](https://somaticlabs.io)*
+*Python library for integrating with the [Somatic Zorb Engine](https://zorbtouch.com)*
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/SomaticLabs/ZorbPy/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/badge/twitter-@SomaticLabs-orange.svg?style=flat)](http://twitter.com/SomaticLabs)
