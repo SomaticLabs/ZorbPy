@@ -7,13 +7,17 @@
 
 ## Installation
 
-Using [pip](), installation is simple:
+First install the [Adafruit BluefruitLE library](https://github.com/adafruit/Adafruit_Python_BluefruitLE).
+```
+
+Please note that this library only currently supports macOS and Linux, as Windows is not currently supported by the [underlying BLE](https://github.com/adafruit/Adafruit_Python_BluefruitLE) package used for this library.
+
+After installing the BluefruitLE library, installation of ZorbPy using [pip](https://pypi.org/project/pip/) is simple:
 
 ```sh
 pip install zorb
 ```
 
-Please note that this library only currently supports macOS and Linux, as Windows is not currently supported by the [underlying BLE](https://github.com/adafruit/Adafruit_Python_BluefruitLE) package used for this library.
 
 ## Library Usage
 
