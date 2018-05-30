@@ -27,3 +27,7 @@ jobs:
       - run:
           name: Install ZorbPy
           command: cd ~/repo && pip install --user .
+
+      - run:
+          name: Test ZorbPy Import
+          command: cd ~/repo && python test.py
