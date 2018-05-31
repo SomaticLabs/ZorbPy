@@ -21,6 +21,10 @@ jobs:
       - checkout
 
       - run:
+          name: Install BlueZ
+          command: cd ~/repo && .circleci/install_bluez.sh
+
+      - run:
           name: Install BluefruitLE
           command: git clone git@github.com:adafruit/Adafruit_Python_BluefruitLE.git && cd Adafruit_Python_BluefruitLE && sudo python setup.py install && cd ..
 
