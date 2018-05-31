@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -e
 
 sudo apt-get update
 sudo apt-get -y install libusb-dev libdbus-1-dev libglib2.0-dev libudev-dev libical-dev libreadline-dev
