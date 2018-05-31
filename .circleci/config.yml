@@ -22,7 +22,7 @@ jobs:
 
       - run:
           name: Install BlueZ
-          command: snap install bluez
+          command: sudo apt-get install snapd && sudo snap install bluez
 
       - run:
           name: Install BluefruitLE
