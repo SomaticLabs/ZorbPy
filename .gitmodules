@@ -1,0 +1,6 @@
+[submodule "resources/zorb-protocol"]
+	path = resources/zorb-protocol
+	url = git@github.com:SomaticLabs/zorb-protocol.git
+[submodule "zorb/zorb-protocol"]
+	path = zorb/zorb_protocol
+	url = git@github.com:SomaticLabs/zorb-protocol.git
