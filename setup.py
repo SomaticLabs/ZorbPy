@@ -15,6 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/SomaticLabs/ZorbPy",
     packages=find_packages(),
+    install_requires=['Adafruit-BluefruitLE'],
     classifiers=(
         "Programming Language :: Python :: 2.7",
         "License :: OSI Approved :: MIT License",

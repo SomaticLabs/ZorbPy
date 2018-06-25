@@ -21,9 +21,5 @@ jobs:
       - checkout
 
       - run:
-          name: Install BluefruitLE
-          command: git clone git@github.com:adafruit/Adafruit_Python_BluefruitLE.git && cd Adafruit_Python_BluefruitLE && sudo python setup.py install && cd ..
-
-      - run:
           name: Install ZorbPy
           command: cd ~/repo && pip install --user .
