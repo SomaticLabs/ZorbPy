@@ -18,7 +18,7 @@ setup(
     install_requires=['Adafruit-BluefruitLE'],
     classifiers=(
         "Programming Language :: Python :: 2.7",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GPL License",
         "Operating System :: MacOS",
         "Operating System :: POSIX :: Linux",
         "Topic :: Scientific/Engineering :: Human Machine Interfaces",
