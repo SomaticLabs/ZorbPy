@@ -5,11 +5,15 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/SomaticLabs/ZorbPy/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/badge/twitter-@SomaticLabs-orange.svg?style=flat)](http://twitter.com/SomaticLabs)
 
+## Compatibility
+
+This library only currently supports macOS and Linux, as Windows is not currently supported by the [underlying BLE](https://github.com/adafruit/Adafruit_Python_BluefruitLE) package used for this library.
+
+Supported Linux builds include all those that are compatible with the [BluefruitLE](https://github.com/adafruit/Adafruit_Python_BluefruitLE) package used with this library, including the [Raspberry Pi](https://www.raspberrypi.org) operating system Raspbian.
+
 ## Installation
 
 First install the [Adafruit BluefruitLE library](https://github.com/adafruit/Adafruit_Python_BluefruitLE).
-
-Please note that this library only currently supports macOS and Linux, as Windows is not currently supported by the [underlying BLE](https://github.com/adafruit/Adafruit_Python_BluefruitLE) package used for this library.
 
 After installing the BluefruitLE library, installation of ZorbPy using [pip](https://pypi.org/project/pip/) is simple:
 
