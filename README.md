@@ -99,4 +99,4 @@ Contributions to this project should conform to this [Python Style Guide](https:
 
 ## License
 
-ZorbPy is released under the [MIT license](https://github.com/SomaticLabs/ZorbPy/blob/master/LICENSE).
+ZorbPy is released under the [GPL license](https://github.com/SomaticLabs/ZorbPy/blob/master/LICENSE).
