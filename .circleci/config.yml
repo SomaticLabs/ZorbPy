@@ -22,7 +22,7 @@ jobs:
 
       - run:
           name: Install BlueZ
-          command: sudo apt-get update && DEBIAN_FRONTEND=noninteractive sudo apt-get -yq upgrade && sudo apt-get -y install snapd && sudo systemctl restart snapd.service && sudo snap install bluez
+          command: sudo apt-get update && DEBIAN_FRONTEND=noninteractive sudo apt-get -yq upgrade && sudo apt-get -y install snapd && sudo service snapd start && sudo snap install bluez
 
       - run:
           name: Install BluefruitLE
