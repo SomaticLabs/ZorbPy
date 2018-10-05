@@ -22,7 +22,7 @@ jobs:
 
       - run:
           name: Install BlueZ
-          command: sudo apt-get update && DEBIAN_FRONTEND=noninteractive sudo apt-get -yq upgrade && sudo apt-get -y install bluez python-setuptools
+          command: sudo apt-get update && DEBIAN_FRONTEND=noninteractive sudo apt-get -yq upgrade && sudo apt-get -y install bluez python-setuptools python-pip python-dev
 
       - run:
           name: Install BluefruitLE
