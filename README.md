@@ -2,7 +2,7 @@
 
 *Python library for integrating with the [Somatic Zorb Engine](https://zorbtouch.com)*
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/SomaticLabs/ZorbPy/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-GPL%203.0-green.svg)](https://github.com/SomaticLabs/ZorbPy/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/badge/twitter-@SomaticLabs-orange.svg?style=flat)](http://twitter.com/SomaticLabs)
 
 ## Compatibility
@@ -10,6 +10,14 @@
 This library only currently supports macOS and Linux, as Windows is not currently supported by the [underlying BLE](https://github.com/adafruit/Adafruit_Python_BluefruitLE) package used for this library.
 
 Supported Linux builds include all those that are compatible with the [BluefruitLE](https://github.com/adafruit/Adafruit_Python_BluefruitLE) package used with this library, including the [Raspberry Pi](https://www.raspberrypi.org) operating system Raspbian.
+
+ ## Troubleshooting & Contributions
+ 
+ - If you **need help**, [send us an email](mailto:developers@somaticlabs.io).
+ - If you'd like to **ask a general question**, [send us an email](mailto:developers@somaticlabs.io).
+ - If you **found a bug**, open an issue.
+ - If you **have a feature request**, open an issue.
+ - If you **want to contribute**, submit a pull request.
 
 ## Installation
 
@@ -20,7 +28,6 @@ After installing the BluefruitLE library, installation of ZorbPy using [pip](htt
 ```sh
 pip install zorb
 ```
-
 
 ## Library Usage
 
@@ -104,3 +111,5 @@ Contributions to this project should conform to this [Python Style Guide](https:
 ## License
 
 ZorbPy is released under the [GPL license](https://github.com/SomaticLabs/ZorbPy/blob/master/LICENSE).
+
+[Contact us](mailto:team@somaticlabs.io) for a commercial license if the GPL does not work well for your use cases.
